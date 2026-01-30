@@ -39,7 +39,6 @@ export const Board = () => {
     const newNote = createNote(
       { x: Math.max(0, centerX), y: Math.max(0, centerY) },
       selectedColor,
-      undefined,
       newZIndex
     );
 
